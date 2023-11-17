@@ -1,0 +1,25 @@
+{
+  "name": "scicomp-vscode",
+  "displayName": "scicomp-vscode",
+  "description": "scicomp-lang vscode plugin",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "scicomp-lang",
+      "aliases": ["scicomp-lang", "scicomp-lang"],
+      "extensions": [".scala",".sc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "scicomp-lang",
+      "scopeName": "source.scala",
+      "path": "./syntaxes/scicomp-lang.tmLanguage.json"
+    }]
+  }
+}

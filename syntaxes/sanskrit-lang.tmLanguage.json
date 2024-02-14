@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "scicomp-lang",
+	"name": "sanskrit-lang",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -12,17 +12,17 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.scicomp-lang",
+				"name": "keyword.control.sanskrit-lang",
 				"match": "\\b(if|while|for|return)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.scicomp-lang",
+			"name": "string.quoted.double.sanskrit-lang",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.scicomp-lang",
+					"name": "constant.character.escape.sanskrit-lang",
 					"match": "\\\\."
 				}
 			]

@@ -1,1 +1,1 @@
-scicomp-lang vscode plugin
+sanskrit-lang vscode plugin
